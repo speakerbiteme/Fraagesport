@@ -1,0 +1,37 @@
+img {	max-width: 100%;
+		-moz-border-radius: 15px; /* firefox */
+		-ms-border-radius: 15px; /* IE 9 */
+		-webkit-border-radius: 15px; /* safari, chrome */
+		border-radius: 15px; /* standardiserade syntaxen */ }
+
+.bild_quizstart {
+	max-width: 30%;
+}
+
+.bild_quizsida {
+	max-width: 50%;
+}
+
+.container {
+	display: table;
+}
+
+.row	{
+	display: table-row;
+}
+
+.column {
+	display: table-cell;
+	max-width: 40%;
+}
+
+#wrap {
+		width: 1140px; 
+		margin: auto; 
+		margin-top: 0;
+		background-color: #B2CCCC;
+	}
+
+header {
+	background-color: #75A3A3;
+}
