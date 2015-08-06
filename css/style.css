@@ -5,7 +5,7 @@ img {	max-width: 100%;
 		border-radius: 15px; /* standardiserade syntaxen */ }
 
 .bild_quizstart {
-	max-width: 30%;
+	max-width: 50%;
 }
 
 .bild_quizsida {
@@ -14,6 +14,7 @@ img {	max-width: 100%;
 
 .container {
 	display: table;
+	width: 100%;
 }
 
 .row	{
@@ -22,16 +23,39 @@ img {	max-width: 100%;
 
 .column {
 	display: table-cell;
-	max-width: 40%;
+}
+
+a:link {
+	font-color: #0C1010;
 }
 
 #wrap {
-		width: 1140px; 
+		width: 1026px; 
 		margin: auto; 
 		margin-top: 0;
 		background-color: #B2CCCC;
+		padding-left: 5%;
+		padding-right: 5%;
+		padding-bottom: 5%;
+		padding-top: 1px;
+		font-family: sans-serif;
 	}
 
 header {
 	background-color: #75A3A3;
+	background-image: url(../bilder/Rano.jpg) ;
+	text-align: center;
+	border-bottom: 1px solid #ddd;
 }
+
+header .container {
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+#bilderpastartsidan {
+	width: 40%;
+	padding-left: 5%;
+	padding-right: 5%;
+
+}
+
